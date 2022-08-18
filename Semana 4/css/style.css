@@ -1,6 +1,10 @@
 header{
     text-align: center;
 }
+.navbar{
+    width: 100%;
+    background: aqua;
+}
 
 .navbar ul li{
     list-style: none;
@@ -8,6 +12,18 @@ header{
 .navbar ul li a{
     text-decoration: none;
 }
-.navbar{
-    
+.navbar ul{
+    display: flex;
 }
+.navbar ul li{
+    margin: 15px;
+}
+.navbar ul li a{
+    width: 70px;
+    height: 15px;
+}
+
+.navbar ul li a:hover{
+    background: #fff;
+}
+
