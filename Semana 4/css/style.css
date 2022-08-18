@@ -1,0 +1,13 @@
+header{
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar{
+    
+}
