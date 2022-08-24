@@ -6,7 +6,3 @@ const list = document.querySelectorAll('.list');
         }
         list.forEach((item) =>
         item.addEventListener('click',activelink));
-
-function redirect(){
-    location.href = "./templates/contact.html";
-}

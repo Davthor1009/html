@@ -8,6 +8,14 @@
     padding: 0;
 }
 
+html{
+    min-height: 100%;
+    position: relative;
+}
+body{
+    margin-bottom: 40px;
+}
+
 header{
     text-align: center;
 }
@@ -201,4 +209,56 @@ textarea{
 	/*resize: vertical | horizontal | none | both*/
 	resize:none;
 	display:block;
+}
+
+/*TABLAS*/
+.tab{
+    width: 50%;
+    margin: 0 auto;
+}
+.tab h1{
+    text-align: center;
+}
+table{
+    width: 100%;
+    height: 150px;
+    border: 1px solid;
+}
+th{
+    border: 1px solid;
+}
+
+table tbody tr:nth-of-type(odd){
+    background-color: #abf0f0;
+}
+table tbody tr:hover{
+    background-color: #7a7251b3;
+    color: #70184e;
+    cursor: pointer;
+}
+table thead{
+    background-color: #2d81b9;
+    color: #fff;
+}
+
+
+.foot{
+    width: 100%;
+    text-align: center;
+}
+footer{
+    background: #2d81b9;
+    color: #fff;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    padding:20px 0;
+}
+footer p a{
+    text-decoration: none;
+    color: #fff;
+}
+footer p a:hover{
+    color: #70184e;
 }
