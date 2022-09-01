@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos_formulario.css">
+    <title>LISTAS Y FORMULARIO</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>      
+    <header>
+        <img src="./img/incap.jpeg" width="150px" height="150px" alt="">
+        <h1>LISTA Y FORMULARIO  HTML</h1>
+        
+    </header>
+<nav>
+   <ul>
+       <li type="square" style="color:white;">Home</li>
+       <li type="disc"  style="color:white;">Productos</li>
+       <li type="circle"  style="color:white;">Servicios</li>
+       <li type="circle" style="color:white;" >Contacto</li>
+   </ul>
+</nav>
+<section>
+<!-- PHP: Method GET pasa los datos por la url, atravez de parametros // Method POST pasa los datos de forma interna (no se ven) -->
+<form action="datos.php" method="post">
+    <!-- seccion marco del formulario -->
+    <fieldset>
+       <!-- seccion de ingreso de nombre -->
+         <label>Nombre completo:</label>
+         <input type="text" name="nombre" placeholder="Ingrese nombre" autofocus required><br><br>
+        <!-- seccion de ingreso de email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="ingrese email" required><br><br>
+        <!-- seccion de ingreso de contraseña -->
+        <label>contraseña:</label>
+        <input type="password" name="contraseña" placeholder="Ingrese contraseña" required><br><br>
+        <!-- seccion de hobbies -->
+        <label>Selecciona tus hobbies:</label>
+        <br>
+        <input type="checkbox" name="cine">Cine <br>
+        <input type="checkbox" name="lectura">Lectura <br>
+        <input type="checkbox" name="deporte">Deporte <br>
+        <br><br>
+
+        <!-- seccion estado civil -->
+        <label>Estado civil:</label><br>
+        <input type="radio" name="estadocivil" value="casado">Casado(a) <br>
+        <input type="radio" name="estadocivil" value="soltero">Soltero(a) <br>
+        <input type="radio" name="estadocivil" value="viudo">Viudo(a) <br>
+        <br>
+        <!-- seccion opcion de lista -->
+    <label>PROGRAMAS TECNICOS INCAP</label>
+    <select name="select">
+  <option value="">Seleccione programa...</option><br>
+  <option value="sistemas">Sistemas</option><br>
+  <option value="diseño">Diseño</option><br>
+  <option value="contabilidad">Contabilidad</option><br>
+  </select>
+ <!-- seccion comentarios -->
+ <br><br>
+ <label>Comentario:</label>
+     <textarea name="comentario" cols="40" rows="5">
+        </textarea>
+</fieldset>
+<br><br>
+<!-- seccion de botones de enviar (submit) y cancelar (reset) -->
+<button type="submit">Enviar</button>
+<button type="reset">Cancelar</button>
+<br><br>
+</form>
+</section>
+<footer>
+   Derechos reservados &copy;2022 &#64;David
+</footer> 
+
+</body>
+</html>
