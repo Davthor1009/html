@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 7 | ejercicio 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <!-- Bootstrap plantillas -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <h1 class="jumbotron text-center">Ejemplo de slider - carrusel de imagenes</h1>
+    </header>
+    <div class="container">
+        <div id="micarrusel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#micarrusel" data-slide-to="0" class="active"></li>
+                <li data-target="#micarrusel" data-slide-to="1"></li>
+                <li data-target="#micarrusel" data-slide-to="2"></li>
+                <li data-target="#micarrusel" data-slide-to="3"></li>
+                <li data-target="#micarrusel" data-slide-to="4"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="./img/foto5.jpeg" alt="" style="width: 90%;">
+                    <div class="carousel-caption">
+                        <h3>FOTO 1</h3>
+                        <p>diseño web 1 es innovacion-accion estudia y desarrolla</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/foto5.jpeg" alt="" style="width: 90%;">
+                    <div class="carousel-caption">
+                        <h3>FOTO 2</h3>
+                        <p>diseño web 2 es innovacion-accion estudia y desarrolla</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/foto5.jpeg" alt="" style="width: 90%;">
+                    <div class="carousel-caption">
+                        <h3>FOTO 3</h3>
+                        <p>diseño web 3 es innovacion-accion estudia y desarrolla</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="./img/foto5.jpeg" alt="" style="width: 90%;">
+                    <div class="carousel-caption">
+                        <h3>FOTO 4</h3>
+                        <p>diseño web 4 es innovacion-accion estudia y desarrolla</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#micarrusel" data-slide="prev" class="left carousel-control">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span>previous</span>
+            </a>
+            <a href="#micarrusel" data-slide="next" class="right carousel-control">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span>next</span>
+            </a>
+        </div>
+    </div>
+    <!--js bootstrap-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+    <script src="./js/Jquery.js"></script>
+</body>
+</html>
