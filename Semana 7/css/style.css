@@ -1,10 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightblue;
-    text-align: center;
-}
-h1,h3{
-    color: #fff;
+    margin: 0;
+    padding: 0;
 }
 .flip-container {
     background-color: black;
@@ -48,4 +46,18 @@ h1,h3{
     background-color: #555;
     color: white;
     transform: rotateY(180deg);
+}
+.jumbotron{
+    margin-bottom: 0;
+}
+
+#mycarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+    height: 70vh;
+}
+
+.carousel-caption{
+    background: rgb(0, 0, 0,0.7);
 }
