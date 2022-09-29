@@ -1,0 +1,8 @@
+div[class^=col]{
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
