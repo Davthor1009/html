@@ -2,16 +2,33 @@
     font-family: 'magical story';
     src: url(../font/Magical\ Story.ttf);
 }
+:root{
+    --fondo: black;
+    --degrad: linear-gradient(90deg, black, red);
+    --font: white;
+}
 body {
     font-family: 'magical story';
+    
+    color: var(--font);
 }
+.background {
+    position:absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    }
 .navbar-brand {
     font-size: 20px;
     color: #000;
     font-weight: bold;
 }
 #testimonial {
-    background: #f1f1f1;
+    border: 1px solid;
+    border-radius: 15%;
+    width: 95%;
+    margin: 0 auto;
     padding: 50px 0 30px 0;
     text-align:center;
     margin-top: 40px;
